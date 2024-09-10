@@ -1,5 +1,5 @@
 ## Project Overview
-
+(in progress)
 This project is a **Next.js application** containerized using **Docker** to create a consistent development environment across different machines (Windows and Mac). The application serves as a **proof of concept** for a fully automated development and deployment process, ensuring code quality and smooth collaboration across teams.
 
 ## Key Features
