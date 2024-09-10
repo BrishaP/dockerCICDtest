@@ -1,0 +1,23 @@
+name: Test GitHub Actions
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Run a Hello World Test Script
+        run: echo "Hello, testing 123!"
+
+      - name: Build Docker Image
+        run: docker build -t dockertest
+
+      - name: Run Docker Container
+        run: docker run dockertest npm run lint

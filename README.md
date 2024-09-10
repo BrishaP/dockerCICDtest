@@ -1,4 +1,5 @@
 ## Project Overview
+
 (in progress)
 This project is a **Next.js application** containerized using **Docker** to create a consistent development environment across different machines (Windows and Mac). The application serves as a **proof of concept** for a fully automated development and deployment process, ensuring code quality and smooth collaboration across teams.
 
@@ -36,6 +37,7 @@ This project is a **Next.js application** containerized using **Docker** to crea
 ### 2. Automated Development Workflow
 
 - **Pre-commit Hooks**:
+
   - On each commit, the following tasks are automatically run to enforce standards:
     - **Linting**: ESLint ensures code follows defined rules.
     - **Formatting**: Prettier enforces consistent code formatting.
@@ -53,3 +55,4 @@ This project is a **Next.js application** containerized using **Docker** to crea
 1. Clone the repository:
    ```bash
    git clone <repo-url>
+   ```
